@@ -12,13 +12,13 @@ The number of multimedia data has been constantly increasing and recently due to
 
 The program require that the .NET Framework 4.5 and Visual C++ Redistributable, and the Java7 is installed on a computer before they can be run 
 
-* .NET Framework 4.5 https://www.microsoft.com/en-US/download/details.aspx?id=30653 
+* .NET Framework 4.5.2 https://www.microsoft.com/ko-KR/download/details.aspx?id=42643
 * Visual C++ Redistributable for Visual Studio 2012 Update 4 https://www.microsoft.com/en-US/download/details.aspx?id=30679 (only 32bit version, vcredist_x86.exe) 
 * Java7(minimum) https://java.com/en/download/ 
 
 ## Program Install
 
-* Git clone & complie 
+* Download source & complie 
 * or Auto update: https://app.withcat.net/SSWEditor/publish.htm 
 
 ## Sample 
