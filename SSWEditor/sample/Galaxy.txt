@@ -1,0 +1,254 @@
+﻿http://dbpedia.org/resource/Galaxy
+    http://dbpedia.org/resource/Andromeda_(galaxy) 
+        `shape
+            http://dbpedia.org/resource/Spiral_Galaxies
+        `direction
+            Andromeda
+        `distance
+            2,300,000 light-years
+    http://dbpedia.org/resource/Bode_Galaxy
+        `shape
+            http://dbpedia.org/resource/Spiral_Galaxies
+        `direction
+            the Great Bear
+        `distance
+            12,000,000 light-years
+    http://dbpedia.org/resource/Sombrero_Galaxy_M104
+        `shape
+            http://dbpedia.org/resource/Spiral_Galaxies
+        `direction
+            the Virgin
+        `distance
+            28,000,000 light-years
+        `character
+            cluster ring
+    Milky Way Galaxy
+        `shape
+            http://dbpedia.org/resource/Barred_spiral_galaxies
+        `contain
+            solar system
+
+http://dbpedia.org/resource/Galaxy
+    `component
+        planet
+        star systems
+        star clusters
+            http://dbpedia.org/resource/Globular_cluster
+                `color
+                    red
+                `survive
+                    more than open cluster
+                `found
+                    Milky Way Galaxy
+                    M87
+                    M31, Andromeda Galaxy
+                `the_number_of_stars
+                    more than open cluster
+            http://dbpedia.org/resource/Open_cluster
+                `color
+                    blue
+                `survive
+                    a few hundred million years
+                    a few billion years
+                `found
+                    spiral galaxy
+                    irregular galaxy
+                `character
+                    star formation
+                `the_number_of_stars
+                    a few thousand
+        http://dbpedia.org/resource/Nebula
+            http://dbpedia.org/resource/Interstellar_clouds
+                dust
+                hydrogen
+                helium
+                ionized gases
+
+                
+http://dbpedia.org/resource/Globular_Cluster
+    M3
+        `direction
+            canes venatici
+    M13
+        `direction
+            hercules
+    M92
+        `direction
+            hercules
+
+
+http://dbpedia.org/resource/Nebula
+    http://dbpedia.org/resource/Dark_Nebula
+        http://dbpedia.org/resource/Horsehead_Nebula
+    http://dbpedia.org/resource/Ring_Nebula
+        `distance
+                20,000,000 light-years
+    http://dbpedia.org/resource/Gaseous_nebula
+        http://dbpedia.org/resource/Emission_nebula
+            http://dbpedia.org/resource/Omega_Nebula
+        http://dbpedia.org/resource/Planetary_Nebula
+            M57
+                `direction
+                    Lyra
+            M27
+                `direction
+                    vulpecula                   
+            M97
+                `direction
+                    the Great Bear
+            Cat's Eye Nebula
+    http://dbpedia.org/resource/Dumbbell_Nebula
+        M27
+            `direction
+                http://dbpedia.org/resource/Vulpecula
+            `distance
+                7,200,000 light-years
+
+http://dbpedia.org/resource/Solar_System
+    http://dbpedia.org/resource/Sun
+    http://dbpedia.org/resource/Planet
+        http://dbpedia.org/resource/Mercury
+            `composition
+                `atmosphere
+                    hydrogen
+                    helium
+                    sodium
+                    potassium
+                    calcium
+                `land
+                    iron
+                    silica
+            `character
+                water
+                ice
+                crater
+        http://dbpedia.org/resource/Venus
+            `composition
+                `atmosphere
+                    carbon dioxide
+                    nitrogen
+                    argon
+                    sulphur dioxide
+                    carbon monoxide
+                    water
+                `land
+            `character
+                axis of rotation tilted
+        http://dbpedia.org/resource/EartH
+            `composition
+                `atmosphere
+                    carbon dioxide
+                    oxygen
+                    nitrogen
+                    argon
+                    vapor
+                `land
+                    iron
+                    nickel
+                    magnesium
+                    aluminum
+            `satellite
+                moon
+        http://dbpedia.org/resource/MaRS
+            `composition
+                `atmosphere
+                    carbon dioxide
+                    nitrogen
+                    argon
+                    oxygen
+                    vapor
+                    methane
+                `land
+        http://dbpedia.org/resource/Jupiter
+            `composition
+                `atmosphere
+                    hydrogen
+                    helium
+                    ammonia
+                    methane
+                `land
+                    hydrogen
+                    helium
+            `character
+                stripe
+                    belt
+                    zone   
+                red spot      
+            `satellite
+                http://dbpedia.org/resource/Galilean_moons
+                    io
+                        `composition
+                            `atmosphere
+                                sulfur dioxide
+                    http://dbpedia.org/resource/Europa_(astronomy)
+                        `surface
+                            ice
+                    http://dbpedia.org/resource/Ganymede_(astronomy)
+                        `surface
+                            silicate rock
+                            water
+                            ice
+                            salt-water ocean
+                    http://dbpedia.org/resource/Callisto_(astronomy)
+                        `composition
+                            `atmosphere
+                                carbon dioxide
+                                molecular oxygen
+        http://dbpedia.org/resource/Saturn_(astrology)
+            `composition
+                `atmosphere
+                    hydrogen
+                    helium
+                    methane
+                    ammonia
+                    hydrogen deuteride
+                    ethane
+                    ices
+                        ammonia
+                        water
+                        ammonium hydrosulfide
+                `land
+                    iron
+                    nickel
+                    rock(silicon and oxygen compounds)
+            `satellite
+                http://dbpedia.org/resource/Titan_(astronomy)
+                    `character
+                        ring
+                        atmosphere in which a moplex organic chemistry occures
+                        hydrocarbon lakes
+                rhea
+            `character
+                ring
+                    `consist
+                        nine continuous main rings
+                            `composition
+                                ice particles
+                                rocky debris
+                                dust
+                        three discontinuous arcs
+        http://dbpedia.org/resource/Uranus
+            `composition
+                hydrogen
+                helium
+                methane
+                hydtrogen
+                deuteride
+                ices
+                    ammonia
+                    water
+                    ammonium hydrosulfide
+                    methane ice
+            `character
+                ring
+                axis of rotation tilted
+    http://dbpedia.org/resource/Neptune
+    http://dbpedia.org/resource/Dwarf_planet
+        http://dbpedia.org/resource/Pluto
+        http://dbpedia.org/resource/Ceres_(astronomy)
+        http://dbpedia.org/resource/Eris_(astronomy)
+    http://dbpedia.org/resource/Satellite_(astronomy)
+    small solar system bodies
+        http://dbpedia.org/resource/Comet
+        http://dbpedia.org/resource/Meteoroid
+        http://dbpedia.org/resource/Interstellar_medium

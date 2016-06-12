@@ -1,0 +1,16 @@
+﻿http://dbpedia.org/resource/Nietzsche
+    `book
+        http://dbpedia.org/resource/The_Birth_of_Tragedy
+    `like
+        http://dbpedia.org/resource/Dionysus
+
+http://dbpedia.org/resource/Richard_Wagner
+    `score_hit_with
+        http://dbpedia.org/resource/The_Birth_of_Tragedy
+    `artmovement
+        http://dbpedia.org/resource/Romanticism_(music)
+                
+http://dbpedia.org/resource/Dionysus
+    `part_of
+        http://dbpedia.org/resource/Romanticism_(music)
+

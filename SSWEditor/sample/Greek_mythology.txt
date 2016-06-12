@@ -1,0 +1,322 @@
+﻿http://dbpedia.org/resource/Hades
+    `personification
+        http://dbpedia.org/resource/Underworld
+        http://dbpedia.org/resource/Death
+    `group
+        http://dbpedia.org/resource/Olympians
+    `father
+        http://dbpedia.org/resource/Cronus
+    `mother
+        http://dbpedia.org/resource/Rhea
+    `spouse
+        http://dbpedia.org/resource/Persephone
+
+http://dbpedia.org/resource/Demeter
+    `personification
+        http://dbpedia.org/resource/Harvest
+        http://dbpedia.org/resource/Grains
+        http://dbpedia.org/resource/Fertility
+        law-bringer
+    `group
+        http://dbpedia.org/resource/Olympians
+    `father
+        http://dbpedia.org/resource/Cronus
+    `mother
+        http://dbpedia.org/resource/Rhea_(Greek_mythology)
+    `spouse
+        http://dbpedia.org/resource/Zeus
+    `children
+        http://dbpedia.org/resource/Persephone
+
+http://dbpedia.org/resource/Zeus
+    `personification
+        Father of gods
+        father of man
+        father
+        http://dbpedia.org/resource/Sky
+        http://dbpedia.org/resource/Thunder_&_Lightning
+    `group
+        http://dbpedia.org/resource/Olympians
+    `father
+        http://dbpedia.org/resource/Cronus
+    `mother
+        http://dbpedia.org/resource/Rhea_(Greek_mythology)
+    `spouse
+        http://dbpedia.org/resource/Hera
+        http://dbpedia.org/resource/Demeter
+    `children
+        http://dbpedia.org/resource/Persephone
+        http://dbpedia.org/resource/Hephaestus
+        http://dbpedia.org/resource/Ares
+        http://dbpedia.org/resource/Aphrodite
+        http://dbpedia.org/resource/Hermes
+        http://dbpedia.org/resource/Apollo
+        http://dbpedia.org/resource/Artemis
+        http://dbpedia.org/resource/Athena
+    `art
+        http://dbpedia.org/resource/Seleme
+            `youtube
+                http://www.youtube.com/watch?v=xKL0Rd7kYGE&list=PL9E723F2FCD36EC56
+
+http://dbpedia.org/resource/Hera
+    `personification
+        http://dbpedia.org/resource/women
+        http://dbpedia.org/resource/marriage
+        http://dbpedia.org/resource/cow
+        http://dbpedia.org/resource/lion
+        http://dbpedia.org/resource/peacock
+    `group
+        http://dbpedia.org/resource/Olympians
+    `father
+        http://dbpedia.org/resource/Cronus
+    `mother
+        http://dbpedia.org/resource/Rhea_(Greek_mythology)
+    `spouse
+        http://dbpedia.org/resource/Zeus
+    `children
+        http://dbpedia.org/resource/Hephaestus
+        http://dbpedia.org/resource/Ares
+    `art
+        http://dbpedia.org/resource/Seleme
+            `youtube
+                http://www.youtube.com/watch?v=xKL0Rd7kYGE&list=PL9E723F2FCD36EC56
+
+http://dbpedia.org/resource/Hestia
+    `personification
+        http://dbpedia.org/resource/hearth
+        http://dbpedia.org/resource/architecture
+        http://dbpedia.org/resource/family
+        http://dbpedia.org/resource/state
+    `group
+        http://dbpedia.org/resource/Olympians
+    `father
+        http://dbpedia.org/resource/Cronus
+    `mother
+        http://dbpedia.org/resource/Rhea_(Greek_mythology)
+
+http://dbpedia.org/resource/Poseidon
+    `personification
+        http://dbpedia.org/resource/sea
+        http://dbpedia.org/resource/earthquakes
+    `group
+        http://dbpedia.org/resource/Olympians
+    `father
+        http://dbpedia.org/resource/Cronus
+    `mother
+        http://dbpedia.org/resource/Rhea_(Greek_mythology)
+    `art
+        http://dbpedia.org/resource/Idomeneo
+            `youtube
+                http://www.youtube.com/watch?v=-PKLsjD7pUU
+
+http://dbpedia.org/resource/Prometheus
+    `personification
+        http://dbpedia.org/resource/forethought
+    `group
+        http://dbpedia.org/resource/Titaness
+    `father
+        http://dbpedia.org/resource/Iapetus
+    `twins
+        http://dbpedia.org/resource/Epimetheus
+    `art
+        http://dbpedia.org/resource/Prometheus_(Goethe)
+
+http://dbpedia.org/resource/Epimetheus
+    `personification
+        http://dbpedia.org/resource/hindsight
+        http://dbpedia.org/resource/afterthinker
+    `group
+        http://dbpedia.org/resource/Titaness
+    `father
+        http://dbpedia.org/resource/Iapetus
+    `twins
+        http://dbpedia.org/resource/Prometheus
+
+http://dbpedia.org/resource/Horae
+    `personification
+        http://dbpedia.org/resource/seasons
+    `group
+        http://dbpedia.org/resource/Titaness
+    `mother
+        http://dbpedia.org/resource/Themis
+    `twins
+        http://dbpedia.org/resource/Moirai
+    `art
+        http://dbpedia.org/resource/Birth_of_Venus_(Botticelli)
+
+http://dbpedia.org/resource/Moirai
+    `personification
+        http://dbpedia.org/resource/fates
+    `group
+        http://dbpedia.org/resource/Titaness
+    `mother
+        http://dbpedia.org/resource/Themis
+    `twins
+        http://dbpedia.org/resource/Horae
+
+http://dbpedia.org/resource/Muse
+    `personification
+        http://dbpedia.org/resource/literature
+        http://dbpedia.org/resource/science
+        http://dbpedia.org/resource/arts
+    `group
+        http://dbpedia.org/resource/Titaness
+    `mother
+        http://dbpedia.org/resource/Mnemosyne
+
+
+http://dbpedia.org/resource/Persephone
+    `personification
+        http://dbpedia.org/resource/the queen of the underworld
+    `group
+        http://dbpedia.org/resource/Olympians
+    `father
+        http://dbpedia.org/resource/Zeus
+    `mother
+        http://dbpedia.org/resource/Demeter
+    `spouse
+        http://dbpedia.org/resource/Hades
+
+
+http://dbpedia.org/resource/Ares
+    `personification
+        http://dbpedia.org/resource/war
+    `group
+        http://dbpedia.org/resource/Olympians
+    `father
+        http://dbpedia.org/resource/Zeus
+    `mother
+        http://dbpedia.org/resource/Hera
+    `children
+        http://dbpedia.org/resource/Eros
+
+http://dbpedia.org/resource/Aphrodite
+    `personification
+        http://dbpedia.org/resource/love
+        http://dbpedia.org/resource/beauty
+        http://dbpedia.org/resource/pleasure
+        http://dbpedia.org/resource/procreation
+    `group
+        http://dbpedia.org/resource/Olympians
+    `father
+        http://dbpedia.org/resource/Ouranos
+    `spouse
+        http://dbpedia.org/resource/Hephaestus
+    `children
+        http://dbpedia.org/resource/Eros
+        http://dbpedia.org/resource/Hermaphroditus
+    `art
+        http://dbpedia.org/resource/Venus_Anadyomene
+        http://dbpedia.org/resource/Birth_of_Venus_(Botticelli)
+        
+http://dbpedia.org/resource/Dionysus
+    `personification
+        http://dbpedia.org/resource/Harvest
+        http://dbpedia.org/resource/Wine
+        http://dbpedia.org/resource/Madness
+    `group
+        http://dbpedia.org/resource/Olympians
+    `father
+        http://dbpedia.org/resource/Zeus
+    `mother
+        http://dbpedia.org/resource/Semele
+        http://dbpedia.org/resource/Zeus    
+    `art
+        http://dbpedia.org/resource/Semele_(Handel)
+        
+
+http://dbpedia.org/resource/Hermes
+    `personification
+        http://dbpedia.org/resource/transtions
+        http://dbpedia.org/resource/boundaries
+        http://dbpedia.org/resource/messenger
+        http://dbpedia.org/resource/emissary
+    `group
+        http://dbpedia.org/resource/Olympians
+    `father
+        http://dbpedia.org/resource/Zeus
+    `mother
+        http://dbpedia.org/resource/Maia
+    `children
+        http://dbpedia.org/resource/Hermaphroditus
+
+http://dbpedia.org/resource/Apollo
+    `personification
+        http://dbpedia.org/resource/light
+        http://dbpedia.org/resource/sun
+        http://dbpedia.org/resource/truth
+        http://dbpedia.org/resource/prophecy
+        http://dbpedia.org/resource/healing
+        http://dbpedia.org/resource/plague
+        http://dbpedia.org/resource/music
+        http://dbpedia.org/resource/poetry
+    `group
+        http://dbpedia.org/resource/Olympians
+    `father
+        http://dbpedia.org/resource/Zeus
+    `mother
+        http://dbpedia.org/resource/Leto
+    `twins
+        http://dbpedia.org/resource/Artemis
+    `art
+        http://dbpedia.org/resource/Admeto
+            `youtube
+                http://www.youtube.com/watch?v=qoY3Kr-Fr3o&list=PL288B6CA3759FEAD7
+        http://dbpedia.org/resource/Seleme
+            `youtube
+                http://www.youtube.com/watch?v=xKL0Rd7kYGE&list=PL9E723F2FCD36EC56
+        http://dbpedia.org/resource/The_Birth_of_Tragedy
+
+http://dbpedia.org/resource/Artemis
+    `personification
+         http://dbpedia.org/resource/hunt
+         http://dbpedia.org/resource/wilderness
+         http://dbpedia.org/resource/childbirth
+         http://dbpedia.org/resource/virginity
+         protector of young girls
+         bringing and relieving disease in women
+    `group
+        http://dbpedia.org/resource/Olympians
+    `father
+        http://dbpedia.org/resource/Zeus
+    `mother
+        http://dbpedia.org/resource/Leto
+    `twins
+        http://dbpedia.org/resource/Apollo
+
+http://dbpedia.org/resource/Athena
+    `personification
+        http://dbpedia.org/resource/wisdom
+        http://dbpedia.org/resource/courage
+        http://dbpedia.org/resource/inspiration
+        http://dbpedia.org/resource/civilization
+        http://dbpedia.org/resource/law
+        http://dbpedia.org/resource/justice
+        http://dbpedia.org/resource/warfare
+        http://dbpedia.org/resource/mathematics
+        http://dbpedia.org/resource/strength
+        http://dbpedia.org/resource/strategy
+        http://dbpedia.org/resource/arts
+        http://dbpedia.org/resource/crafts
+        http://dbpedia.org/resource/skill
+    `group
+        http://dbpedia.org/resource/Olympians
+    `father
+        http://dbpedia.org/resource/Zeus
+    `mother
+        http://dbpedia.org/resource/Metis
+    `art
+        http://dbpedia.org/resource/Pallas_and_the_Centaur
+
+http://dbpedia.org/resource/Eros
+    `personification
+    `group
+        http://dbpedia.org/resource/Olympians
+    `father
+        http://dbpedia.org/resource/Ares
+    `mother
+        http://dbpedia.org/resource/Aphrodite
+    `spouse
+        http://dbpedia.org/resource/Psyche
+
+    

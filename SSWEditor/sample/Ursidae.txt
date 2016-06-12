@@ -1,0 +1,118 @@
+﻿http://dbpedia.org/resource/MammaLia
+     Aritodactyla
+          http://dbpedia.org/resource/Ursidae
+               http://dbpedia.org/resource/Ailuropoda
+                    http://dbpedia.org/resource/Giant_panda
+                              `image
+                                   http://www.globalsherpa.org/wp-content/uploads/2012/07/cute-giant-panda-eating-bamboo-leaves1.jpg
+                              `youtube
+                                   http://www.youtube.com/watch?v=4Oi6i5mMWN4
+                                   http://www.youtube.com/watch?v=kCJujDysSPo
+                              `Live_in
+                                   High-altitude and moist bamboo [Forest]
+                              `Eat
+                                   Bamboo
+                                   Fruits
+                                   Rodents
+                              `Conservation_status
+                                   Endangered
+               http://dbpedia.org/resource/Tremarctos
+                    http://dbpedia.org/resource/Spectacled_bear
+                         `image
+                              http://images.nationalgeographic.com/wpf/media-live/photos/000/007/cache/spectacled-bear_716_600x450.jpg
+                         `youtube
+                              http://www.youtube.com/watch?v=Q2wKMtZv8ls
+                         `Live_in
+                              Andes [Mountain]
+                         `Eat
+                              Cactus
+                              Palm nuts
+                              Sugarcane
+                              Deer
+                         `Conservation_status
+                              Vulnerable
+               Helarctos
+                    http://dbpedia.org/resource/Sun_bear
+                         `image
+                              https://c1.staticflickr.com/5/4035/4698050324_e63a6d4478_z.jpg
+                         `youtube
+                              http://www.youtube.com/watch?v=URnrj9g3HYo
+                         `Live_in
+                              Tropical [Rainforest]
+                         `Eat
+                              [Bees], [Beehives]
+                              Fruits
+                         `Conservation_status
+                              Vulnerable
+               http://dbpedia.org/resource/Ursus
+                    http://dbpedia.org/resource/Grizzly_bear
+                         `image
+                              http://skierbob.ca/wp-content/uploads/2014/06/Grizzly-bear.jpg
+                         `youtube
+                              http://www.youtube.com/watch?v=K-Tfq6dARGk
+                         `Live_in
+                              Forest
+                              Mountainous region
+                         `Eat
+                              Salmon
+                              Fruits
+                              Fish
+                              Deer
+                         `Conservation_status
+                              Endangered
+                    http://dbpedia.org/resource/American_black_bear
+                         `image
+                              http://www.garlynzoo.com/images/Black-Bear-3.jpg
+                         `youtube
+                              http://www.youtube.com/watch?v=kp75nTIoHWs
+                         `Live_in
+                              Forest
+                              Woodland
+                         `Eat
+                              Fruits
+                              Nuts
+                              Rodents
+                         `Conservation_status
+                              Least concern
+                    http://dbpedia.org/resource/Asian_black_bear
+                         `image
+                              http://www.roughguides.com/wp-content/uploads/2012/07/762568-001-1680x1050.jpg
+                         `youtube
+                              http://www.youtube.com/watch?v=0Y36R6rSNKg
+                         `Live_in
+                              Deciduous tropical [Forest]
+                         `Eat
+                              Fruits
+                              Nuts
+                              Insects
+                         `Conservation_status
+                              Endangered
+                    http://dbpedia.org/resource/Brown_bear
+                         `image
+                              http://www.ecomediacenter.com/images/uploads/source/00000/198.jpg
+                         `youtube
+                              http://www.youtube.com/watch?v=fQcvn14YH_Q
+                         `Live_in
+                              Forest
+                              Mountainous region
+                         `Eat
+                              Fish
+                              Fruits
+                              Insects
+                         `Conservation_status
+                              Endangered
+                    http://dbpedia.org/resource/Polar_bear
+                         `image
+                              http://www.polarbearsinternational.org/sites/default/files/styles/media_full/public/00473-06209.jpg?itok=LHRBSeKy
+                         `youtube
+                              http://www.youtube.com/watch?v=ZtziVubrcpg
+                         `Live_in
+                              Coastal [Ice field]
+                              Floating ice
+                         `Eat
+                              Seal
+                              Walrus
+                              Seabirds
+                         `Conservation_status
+                              Vulnerable
+    

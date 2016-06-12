@@ -1,0 +1,92 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix sioct: <http://rdfs.org/sioc/types#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix : <http://ah.withcat.net/qna#> .
+
+<http://ah.withcat.net/wiki/Giant_panda> 
+	a sioct:Wiki ;
+	rdfs:label "Giant Panda" ;
+	sioc:container_of 
+		<http://ah.withcat.net/q/1/where_is_giant_panda> ,
+		<http://ah.withcat.net/q/2/what_is_the_favorite_dish_of_giant_panda> ,
+		<http://ah.withcat.net/a/1/re_where_is_giant_panda> ,
+		<http://ah.withcat.net/a/2/re_where_is_giant_panda> .
+
+<http://ah.withcat.net/q/1/where_is_giant_panda>
+	a sioct:Question ;
+	dct:title "Where is giant panda?" ;
+	dct:created "2013-10-04T13:49:00"^^xsd:dateTime ;
+	sioc:has_creator <http://ah.withcat.net/wiki/User:starryah> ;
+	sioc:has_container <http://ah.withcat.net/wiki/Giant_panda> ;
+	sioc:has_reply 
+		<http://ah.withcat.net/a/1/re_where_is_giant_panda> , 
+		<http://ah.withcat.net/a/2/re_where_is_giant_panda> ;
+	sioc:content "I need map" ;
+	:useful_to <http://ah.withcat.net/wiki/User:ip-163.152.111.1> .
+
+<http://ah.withcat.net/a/1/re_where_is_giant_panda> 
+	a sioct:BestAnswer ;
+	dct:title "The map" ;
+	dct:created "2013-10-04T13:53:00"^^xsd:dateTime ;
+	sioc:has_creator <http://ah.withcat.net/wiki/User:starryah> ;
+	sioc:reply_of <http://ah.withcat.net/q/1/where_is_giant_panda> ;
+	:SPARQL "SELECT ?map FROM <http://dbpedia.org/sparql> WHERE { <http://dbpedia.org/resource/Giant_panda> <http://dbpedia.org/property/rangeMap> ?map . }" ;
+	:SPARQL_IRI_REF 
+		<http://dbpedia.org/resource/Giant_panda> ,
+		<http://dbpedia.org/property/rangeMap> ;
+	:useful_to 
+		<http://ah.withcat.net/wiki/User:starryah> ,
+		<http://ah.withcat.net/wiki/User:ip-163.152.111.1> ,
+		<http://ah.withcat.net/wiki/User:ip-163.152.111.2> ,
+		<http://ah.withcat.net/wiki/User:ip-163.152.111.3> .
+
+<http://ah.withcat.net/a/2/re_where_is_giant_panda> 
+	a sioct:Answer ;
+	dct:title "The location name" ;
+	dct:created "2013-10-04T13:55:00"^^xsd:dateTime ;
+	sioc:has_creator <http://ah.withcat.net/wiki/User:ip-163.152.111.1> ;
+	sioc:reply_of <http://ah.withcat.net/q/1/where_is_giant_panda> ;
+	:text "china" ;
+	:useful_to 
+		<http://ah.withcat.net/wiki/User:ip-163.152.111.1> ,
+		<http://ah.withcat.net/wiki/User:ip-163.152.111.2> ;
+	:not_useful_to
+		<http://ah.withcat.net/wiki/User:starryah> ,
+		<http://ah.withcat.net/wiki/User:ip-163.152.111.3> .
+
+<http://ah.withcat.net/q/2/what_is_the_favorite_dish_of_giant_panda>
+	a sioct:Question ;
+	dct:title "What is the favorite dish of giant panda?" ;
+	dct:created "2013-10-04T16:49:00"^^xsd:dateTime ;
+	sioc:has_creator <http://ah.withcat.net/wiki/User:onacloud> ;
+	sioc:has_container <http://ah.withcat.net/wiki/Giant_panda> ;
+	sioc:content "meat or fish?" ;
+	:useful_to <http://ah.withcat.net/wiki/User:ip-163.152.111.3> .
+
+<http://ah.withcat.net/wiki/User:starryah> 
+	a sioc:UserAccount ;
+	rdfs:label "Yoonah" ;
+	sioc:name "Yoonah" .		
+
+<http://ah.withcat.net/wiki/User:onacloud> 
+	a sioc:UserAccount ;
+	rdfs:label "Yoonah" ;
+	sioc:name "Yoonah" .		
+
+<http://ah.withcat.net/wiki/User:ip-163.152.111.1> 
+	a sioc:UserAccount ;
+	rdfs:label "163.152.111.1" ;
+	sioc:name "163.152.111.1" .		
+
+<http://ah.withcat.net/wiki/User:ip-163.152.111.2> 
+	a sioc:UserAccount ;
+	rdfs:label "163.152.111.2" ;
+	sioc:name "163.152.111.2" .		
+
+<http://ah.withcat.net/wiki/User:ip-163.152.111.3> 
+	a sioc:UserAccount ;
+	rdfs:label "163.152.111.3" ;
+	sioc:name "163.152.111.3" .		
