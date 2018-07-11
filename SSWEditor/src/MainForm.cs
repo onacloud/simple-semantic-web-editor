@@ -76,7 +76,7 @@ namespace SSWEditor
             }
         }
 
-        
+
         public static string GetJavaInstallationPath()
         {
             var environmentPath = Environment.GetEnvironmentVariable("JAVA_HOME");
@@ -133,7 +133,7 @@ namespace SSWEditor
                 {
                     var m = new XmlSerializer(config.GetType());
                     TextReader r = new StreamReader(DocumentRoot + @"\config.xml");
-                    config = (Config) m.Deserialize(r);
+                    config = (Config)m.Deserialize(r);
                     r.Close();
                 }
                 catch
@@ -149,7 +149,7 @@ namespace SSWEditor
             else
             {
                 var randomString = Config.GetRandomString(6);
-                var form = new SingleForm {Title = "Set unique userid", Label = "userid", Content = randomString};
+                var form = new SingleForm { Title = "Set unique userid", Label = "userid", Content = randomString };
 
                 if (form.ShowDialog() == DialogResult.OK)
                 {
@@ -214,24 +214,24 @@ namespace SSWEditor
                     Usage = true,
                     Url = "http://purl.org/dc/terms/contributor"
                 });
-                config.PredicateList.Add(new ConfigPredicate {Usage = true, Url = "http://purl.org/dc/terms/created"});
-                config.PredicateList.Add(new ConfigPredicate {Usage = true, Url = "http://purl.org/dc/terms/creator"});
-                config.PredicateList.Add(new ConfigPredicate {Usage = true, Url = "http://purl.org/dc/terms/date"});
+                config.PredicateList.Add(new ConfigPredicate { Usage = true, Url = "http://purl.org/dc/terms/created" });
+                config.PredicateList.Add(new ConfigPredicate { Usage = true, Url = "http://purl.org/dc/terms/creator" });
+                config.PredicateList.Add(new ConfigPredicate { Usage = true, Url = "http://purl.org/dc/terms/date" });
                 config.PredicateList.Add(new ConfigPredicate
                 {
                     Usage = true,
                     Url = "http://purl.org/dc/terms/description"
                 });
-                config.PredicateList.Add(new ConfigPredicate {Usage = true, Url = "http://purl.org/dc/terms/format"});
-                config.PredicateList.Add(new ConfigPredicate {Usage = true, Url = "http://purl.org/dc/terms/hasFormat"});
-                config.PredicateList.Add(new ConfigPredicate {Usage = true, Url = "http://purl.org/dc/terms/identifier"});
-                config.PredicateList.Add(new ConfigPredicate {Usage = true, Url = "http://purl.org/dc/terms/isPartOf"});
-                config.PredicateList.Add(new ConfigPredicate {Usage = true, Url = "http://purl.org/dc/terms/license"});
-                config.PredicateList.Add(new ConfigPredicate {Usage = true, Url = "http://purl.org/dc/terms/modified"});
-                config.PredicateList.Add(new ConfigPredicate {Usage = true, Url = "http://purl.org/dc/terms/publisher"});
-                config.PredicateList.Add(new ConfigPredicate {Usage = true, Url = "http://purl.org/dc/terms/source"});
-                config.PredicateList.Add(new ConfigPredicate {Usage = true, Url = "http://purl.org/dc/terms/subject"});
-                config.PredicateList.Add(new ConfigPredicate {Usage = true, Url = "http://purl.org/dc/terms/title"});
+                config.PredicateList.Add(new ConfigPredicate { Usage = true, Url = "http://purl.org/dc/terms/format" });
+                config.PredicateList.Add(new ConfigPredicate { Usage = true, Url = "http://purl.org/dc/terms/hasFormat" });
+                config.PredicateList.Add(new ConfigPredicate { Usage = true, Url = "http://purl.org/dc/terms/identifier" });
+                config.PredicateList.Add(new ConfigPredicate { Usage = true, Url = "http://purl.org/dc/terms/isPartOf" });
+                config.PredicateList.Add(new ConfigPredicate { Usage = true, Url = "http://purl.org/dc/terms/license" });
+                config.PredicateList.Add(new ConfigPredicate { Usage = true, Url = "http://purl.org/dc/terms/modified" });
+                config.PredicateList.Add(new ConfigPredicate { Usage = true, Url = "http://purl.org/dc/terms/publisher" });
+                config.PredicateList.Add(new ConfigPredicate { Usage = true, Url = "http://purl.org/dc/terms/source" });
+                config.PredicateList.Add(new ConfigPredicate { Usage = true, Url = "http://purl.org/dc/terms/subject" });
+                config.PredicateList.Add(new ConfigPredicate { Usage = true, Url = "http://purl.org/dc/terms/title" });
                 config.PredicateList.Add(new ConfigPredicate
                 {
                     Usage = false,
@@ -342,20 +342,20 @@ namespace SSWEditor
                     Usage = true,
                     Url = "http://www.w3.org/2004/02/skos/core#prefLabel"
                 });
-                config.PredicateList.Add(new ConfigPredicate {Usage = true, Url = "http://xmlns.com/foaf/0.1/homepage"});
+                config.PredicateList.Add(new ConfigPredicate { Usage = true, Url = "http://xmlns.com/foaf/0.1/homepage" });
                 config.PredicateList.Add(new ConfigPredicate
                 {
                     Usage = true,
                     Url = "http://xmlns.com/foaf/0.1/isPrimaryTopicOf"
                 });
-                config.PredicateList.Add(new ConfigPredicate {Usage = true, Url = "http://xmlns.com/foaf/0.1/name"});
-                config.PredicateList.Add(new ConfigPredicate {Usage = true, Url = "http://xmlns.com/foaf/0.1/page"});
+                config.PredicateList.Add(new ConfigPredicate { Usage = true, Url = "http://xmlns.com/foaf/0.1/name" });
+                config.PredicateList.Add(new ConfigPredicate { Usage = true, Url = "http://xmlns.com/foaf/0.1/page" });
                 config.PredicateList.Add(new ConfigPredicate
                 {
                     Usage = true,
                     Url = "http://xmlns.com/foaf/0.1/primaryTopic"
                 });
-                config.PredicateList.Add(new ConfigPredicate {Usage = true, Url = "http://xmlns.com/foaf/0.1/topic"});
+                config.PredicateList.Add(new ConfigPredicate { Usage = true, Url = "http://xmlns.com/foaf/0.1/topic" });
             }
             if (config.FusekiServer == null || config.FusekiServer == "")
             {
@@ -376,7 +376,7 @@ namespace SSWEditor
             }
         }
 
-       
+
         private void UpdateListViewGraph()
         {
             try
@@ -385,7 +385,7 @@ namespace SSWEditor
 
                 var graphs = new List<string>();
                 graphs.Add("default");
-                graphs.AddRange(fuseki.ListGraphs().Select(uri => uri.ToString()).OrderBy(ee=>ee));
+                graphs.AddRange(fuseki.ListGraphs().Select(uri => uri.ToString()).OrderBy(ee => ee));
                 foreach (var uri in graphs)
                 {
                     var graphBase64 = GraphEditor.Base64Encode(uri);
@@ -397,7 +397,7 @@ namespace SSWEditor
                         updateDate = info.LastWriteTime.ToShortDateString();
                     }
 
-                    var item = new ListViewItem(new[] {uri, updateDate}) {Tag = uri};
+                    var item = new ListViewItem(new[] { uri, updateDate }) { Tag = uri };
                     listViewGraph.Items.Add(item);
                 }
 
@@ -424,7 +424,7 @@ namespace SSWEditor
         private void listViewGraph_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (listViewGraph.SelectedItems.Count != 1) return;
-            var uri = (string) listViewGraph.SelectedItems[0].Tag;
+            var uri = (string)listViewGraph.SelectedItems[0].Tag;
             UpdateListViewGraphColor(uri);
 
             var tabpage = GetTabPage(uri);
@@ -479,7 +479,7 @@ namespace SSWEditor
                 if (form.ShowDialog() != DialogResult.OK) return;
 
                 var uri = form.Content;
-                var g = new Graph {BaseUri = new Uri(uri)};
+                var g = new Graph { BaseUri = new Uri(uri) };
                 SetNewGraphTriple(g, uri);
                 fuseki.SaveGraph(g);
 
@@ -493,7 +493,7 @@ namespace SSWEditor
 
         private void SetNewGraphTriple(Graph g, string uri)
         {
-            var label = uri.Split(new[] {'/', '#'}).Last();
+            var label = uri.Split(new[] { '/', '#' }).Last();
             var nt = string.Format("<{0}> <{1}> \"{2}\"."
                 , uri
                 , "http://www.w3.org/2000/01/rdf-schema#label"
@@ -511,7 +511,7 @@ namespace SSWEditor
         {
             if (tabControlGraph.TabPages.Count == 0) return;
 
-            var graphEditor = (GraphEditor) tabControlGraph.SelectedTab.Tag;
+            var graphEditor = (GraphEditor)tabControlGraph.SelectedTab.Tag;
             if (graphEditor.RequestSave())
             {
                 if (
@@ -548,7 +548,7 @@ namespace SSWEditor
             if (tabControlGraph.TabPages.Count == 0) return;
             foreach (TabPage page in tabControlGraph.TabPages)
             {
-                var graphEditor = (GraphEditor) page.Tag;
+                var graphEditor = (GraphEditor)page.Tag;
                 if (graphEditor.RequestSave())
                 {
                     if (
@@ -592,7 +592,7 @@ namespace SSWEditor
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (tabControlGraph.TabPages.Count == 0) return;
-            var graphEditor = (GraphEditor) tabControlGraph.SelectedTab.Tag;
+            var graphEditor = (GraphEditor)tabControlGraph.SelectedTab.Tag;
             graphEditor.SaveGraph();
             UpdateListViewGraph();
         }
@@ -602,7 +602,7 @@ namespace SSWEditor
             if (tabControlGraph.TabPages.Count == 0) return;
             foreach (TabPage page in tabControlGraph.TabPages)
             {
-                var graphEditor = (GraphEditor) page.Tag;
+                var graphEditor = (GraphEditor)page.Tag;
                 graphEditor.SaveGraph();
             }
             UpdateListViewGraph();
@@ -615,11 +615,11 @@ namespace SSWEditor
                 MessageBox.Show("no graph is selected");
                 return;
             }
-            var graphUri = (string) listViewGraph.SelectedItems[0].Tag;
+            var graphUri = (string)listViewGraph.SelectedItems[0].Tag;
             var tabPage = GetTabPage(graphUri);
             if (tabPage != null)
             {
-                var graphEditor = (GraphEditor) tabPage.Tag;
+                var graphEditor = (GraphEditor)tabPage.Tag;
                 if (graphEditor.RequestSave())
                 {
                     if (
@@ -680,11 +680,11 @@ namespace SSWEditor
                 MessageBox.Show("no graph is selected");
                 return;
             }
-            var graphUri = (string) listViewGraph.SelectedItems[0].Tag;
+            var graphUri = (string)listViewGraph.SelectedItems[0].Tag;
             var tabPage = GetTabPage(graphUri);
             if (tabPage != null)
             {
-                var graphEditor = (GraphEditor) tabPage.Tag;
+                var graphEditor = (GraphEditor)tabPage.Tag;
                 if (graphEditor.RequestSave())
                 {
                     if (
@@ -697,7 +697,7 @@ namespace SSWEditor
                 tabControlGraph.TabPages.Remove(tabPage);
             }
 
-            var form = new SingleForm {Title = "Set URI", Label = "URI"};
+            var form = new SingleForm { Title = "Set URI", Label = "URI" };
             if (form.ShowDialog() != DialogResult.OK) return;
 
             var ng = new Graph();
@@ -725,7 +725,7 @@ namespace SSWEditor
                 MessageBox.Show("no graph is selected");
                 return;
             }
-            var graphUri = (string) listViewGraph.SelectedItems[0].Tag;
+            var graphUri = (string)listViewGraph.SelectedItems[0].Tag;
 
             var dialogResult = saveFileDialog1.ShowDialog();
             if (dialogResult != DialogResult.OK) return;
@@ -736,7 +736,8 @@ namespace SSWEditor
             var ext = extension.ToLower();
 
             var g = new Graph();
-            fuseki.LoadGraph(g, graphUri);
+            if (graphUri == "default") fuseki.LoadGraph(g, "");
+            else fuseki.LoadGraph(g, graphUri);
             try
             {
                 switch (ext)
@@ -767,7 +768,7 @@ namespace SSWEditor
                 MessageBox.Show("no graph is selected");
                 return;
             }
-            var graphUri = (string) listViewGraph.SelectedItems[0].Tag;
+            var graphUri = (string)listViewGraph.SelectedItems[0].Tag;
             if (
                 MessageBox.Show(string.Format("are you want to truncate {0}", graphUri), "Warning",
                     MessageBoxButtons.YesNo) != DialogResult.Yes) return;
@@ -800,7 +801,7 @@ namespace SSWEditor
                 return;
             }
 
-            var graphUri = (string) listViewGraph.SelectedItems[0].Tag;
+            var graphUri = (string)listViewGraph.SelectedItems[0].Tag;
             if (graphUri == "default")
             {
                 MessageBox.Show("default(unnamed) graph cannot delete");
@@ -842,21 +843,21 @@ namespace SSWEditor
                 MessageBox.Show("no graph is selected");
                 return;
             }
-            var graphUri = (string) listViewGraph.SelectedItems[0].Tag;
+            var graphUri = (string)listViewGraph.SelectedItems[0].Tag;
 
             var g = new Graph();
             fuseki.LoadGraph(g, graphUri);
 
-            var form = new SingleForm {Title = "Set New Graph URI", Label = "URI", Content = graphUri};
+            var form = new SingleForm { Title = "Set New Graph URI", Label = "URI", Content = graphUri };
             if (form.ShowDialog() != DialogResult.OK) return;
 
             var srcUri = graphUri;
             var srcGraphBase64 = GraphEditor.Base64Encode(srcUri);
             var dstUri = form.Content;
-            var dstGraphLabel = dstUri.Split(new[] {'/', '#'}).Last();
+            var dstGraphLabel = dstUri.Split(new[] { '/', '#' }).Last();
             var dstGraphBase64 = GraphEditor.Base64Encode(dstUri);
 
-            var newg = new Graph {BaseUri = new Uri(dstUri)};
+            var newg = new Graph { BaseUri = new Uri(dstUri) };
 
             var nLabel = newg.CreateUriNode(UriFactory.Create("http://www.w3.org/2000/01/rdf-schema#label"));
             newg.Assert(new Triple(newg.CreateUriNode(UriFactory.Create(dstUri)), nLabel,
@@ -889,7 +890,7 @@ namespace SSWEditor
 
         public static string GetJson(string url)
         {
-            var request = (HttpWebRequest) WebRequest.Create(url);
+            var request = (HttpWebRequest)WebRequest.Create(url);
             try
             {
                 var response = request.GetResponse();
