@@ -17,8 +17,8 @@ The program require that the .NET Framework 4.5 and Visual C++ Redistributable, 
 * .NET Framework 4.5.2 https://www.microsoft.com/ko-KR/download/details.aspx?id=42643
 * Visual C++ Redistributable for Visual Studio 2012 Update 4 https://www.microsoft.com/en-US/download/details.aspx?id=30679 (only 32bit version, vcredist_x86.exe) 
 * Java7(minimum) https://java.com/en/download/ 
-  - Please set up JAVA_HOME as shown below.
-  - https://github.com/onacloud/simple-semantic-web-editor/blob/master/JAVA_HOME.png?raw=true (Reboot may be required)
+  - Refer to the following figure and set JAVA_HOME according to your environment (Reboot may be required)
+  - https://github.com/onacloud/simple-semantic-web-editor/blob/master/JAVA_HOME.png?raw=true 
 
 ## Program Install
 
