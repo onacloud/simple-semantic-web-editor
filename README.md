@@ -23,8 +23,8 @@ The program require that the .NET Framework 4.5 and Visual C++ Redistributable, 
 ## Program Install
 
 * Download source & complie 
-* or Auto update: https://app.withcat.net/SSWEditor/publish.htm 
-* Download binary: https://app.withcat.net/simple-semantic-web-editor.zip (updated 2018.07.13)
+* or Auto update: http://app.withcat.net/SSWEditor/publish.htm 
+* Download binary: http://app.withcat.net/simple-semantic-web-editor.zip (updated 2018.07.13)
 
 ## Sample 
 
